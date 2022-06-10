@@ -12,7 +12,7 @@ class Employe:
         self.lname=lname
         self.salary=salary
 
-    # Method
+    # Instance-Method
     def increment(self):
         self.salary=self.salary*self.inc
     
