@@ -5,7 +5,6 @@
 # 2.handle the process when customer request to borrow book
 # 3.handle the process when customer return a book
 
-from re import template
 
 
 class Library:
@@ -14,7 +13,7 @@ class Library:
     def __init__(self,name,books):
         self.name=name
         self.books=books
-        print(f"Welcome '{self.name}' to our Libreay")
+        print(f"Welcome '{self.name.capitalize()}' to our Libreay")
  
 
     # all books
